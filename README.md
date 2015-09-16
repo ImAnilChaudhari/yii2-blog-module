@@ -1,0 +1,33 @@
+Yii2 Blog Module
+================
+A module base app for integrating blog on any application.
+
+(Under Development)
+
+Installation
+------------
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+php composer.phar require --prefer-dist imanilchaudhari/yii2-blog-module "dev-master"
+```
+
+or add
+
+```
+"imanilchaudhari/yii2-blog-module": "dev-master"
+```
+
+to the require section of your `composer.json` file.
+
+
+Usage
+-----
+
+Once the extension is installed, simply use it in your code by  :
+
+```php
+<?= \imanilchaudhari\Yii2BlogModule\AutoloadExample::widget(); ?>```

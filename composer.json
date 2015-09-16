@@ -1,0 +1,27 @@
+{
+    "name": "imanilchaudhari/yii2-blog-module",
+    "description": "A module base app for integrating on any application",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anil Chaudhari",
+            "email": "caanil90@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "imanilchaudhari\\Yii2BlogModule\\": ""
+        }
+    },
+	"repositories":[
+    {
+        "type": "git",
+        "url": "https://path.to/your/repo"
+    }
+]
+}
